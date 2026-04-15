@@ -30,6 +30,7 @@ nav {
    border-bottom: 1px solid #dbe4f4;
    text-align: center;
    padding: 10px 0;
+   background-color: #ffffff;
 }
 
 a {
@@ -37,10 +38,6 @@ a {
    color: #878787;
    font-size: 13pt
 }
-
-
-
-
 
 .card {
    border: 1px solid black;
@@ -52,9 +49,13 @@ a {
 
 main {
    align-content: center;
-
+   background-color: #81aaf0;
 }
 
 main h2 {
    color: #bb7e8c;
+}
+
+section {
+   background-color: #c4c4c4;
 }
