@@ -2,7 +2,8 @@
    Add styles here in later lessons. */
 
 body {
-   margin: 0
+   margin: 0;
+   font-family: Comfortaa , Delius, 'Fira Sans', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
@@ -28,12 +29,9 @@ a {
    text-decoration: none;
 }
 
-#about {
-   font-family: Delius, 'Fira Sans', Tahoma, Geneva, Verdana, sans-serif;
-}
+
 
 .card {
-   font-family: 'Montserrat Alternates', 'Fira Sans', Tahoma ;
    border: 1px solid black;
    margin: 10px 25px;
    border-radius: 10px;
