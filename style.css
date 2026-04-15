@@ -50,6 +50,8 @@ main {
    align-content: center;
    background-color: #EEF5FF;
    padding: 25px;
+   padding-left: 150px;
+   padding-right: 150px;
 }
 
 main h2 {
@@ -63,12 +65,14 @@ section {
 }
 
 main article {
+   display: inline-block;
    border: 1px solid black;
    margin: 10px 25px;
    border-radius: 10px;
    max-width: 20%;
    margin: 15px auto;
    color: #000000;  
+   padding: 20px;
 }
 
 main p {
