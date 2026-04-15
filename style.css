@@ -1,28 +1,45 @@
 /* Lesson 1 starter CSS file.
    Add styles here in later lessons. */
-
 body {
    margin: 0;
 }
 
 header {
    background-color: aqua;
-   border-bottom: 1px solid black;
-}
+   border-bottom: 5px solid forestgreen;
+   text-align: center;
 
-header p {
-   margin: 0;
+   p {
+      margin: 0;
+   }
 }
 
 nav {
    border-bottom: 1px solid #dbe4f4;
+   text-align: center;
 }
 
 a {
-   text-decoration: none;
+   text-decoration: wavy;
 }
 
 header,
 nav {
    padding: 10px 0;
+}
+
+#About {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+   border: 1px solid black;
+   margin: 10px 25px;
+   border-radius: 10px;
+   max-width: 60%;
+   padding: 10px;
+}
+
+main {
+   align-content: center;
 }
