@@ -1,28 +1,60 @@
 /* Lesson 1 starter CSS file.
    Add styles here in later lessons. */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
    margin: 0;
+   font-family: "Raleway", sans-serif;
 }
 
 header {
-   background-color: aqua;
-   border-bottom: 1px solid black;
+   color: #ffffff;
+   background-image: linear-gradient(to left, #bb7e8c, #d1becf);
+   border-bottom: 1px solid #c9b6be;
+   text-align: center;
+   padding: 10px 0;
+
 }
 
 header p {
    margin: 0;
+   position: relative;
+   top: 20px;
+   /* Sposta il testo di 5 pixel verso il basso */
+
 }
 
 nav {
+
+   text-decoration: none;
    border-bottom: 1px solid #dbe4f4;
+   text-align: center;
+   padding: 10px 0;
 }
 
 a {
    text-decoration: none;
+   color: #878787;
+   font-size: 13pt
 }
 
-header,
-nav {
-   padding: 10px 0;
+
+
+
+
+.card {
+   border: 1px solid black;
+   margin: 10px 25px;
+   border-radius: 10px;
+   max-width: 60%;
+   margin: 15px auto;
+}
+
+main {
+   align-content: center;
+
+}
+
+main h2 {
+   color: #bb7e8c;
 }
