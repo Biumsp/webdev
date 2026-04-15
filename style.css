@@ -1,26 +1,22 @@
 /* Lesson 1 starter CSS file.
    Add styles here in later lessons. */
+
 body {
-   margin: 0;
+   margin: 0
 }
 
 header {
-   background-color: aqua;
-   border-bottom: 5px solid forestgreen;
+   background-color: rgb(249, 219, 243);
+   border-bottom: 1px solid rgb(246, 74, 234);
    text-align: center;
+}
 
-   p {
-      margin: 0;
-   }
+header p {
+   margin: 0;
 }
 
 nav {
    border-bottom: 1px solid #dbe4f4;
-   text-align: center;
-}
-
-a {
-   text-decoration: wavy;
 }
 
 header,
@@ -28,18 +24,26 @@ nav {
    padding: 10px 0;
 }
 
-#About {
-   font-family: Verdana, Geneva, Tahoma, sans-serif;
+a {
+   text-decoration: none;
+}
+
+#about {
+   font-family: Delius, 'Fira Sans', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .card {
+   font-family: 'Montserrat Alternates', 'Fira Sans', Tahoma ;
    border: 1px solid black;
    margin: 10px 25px;
    border-radius: 10px;
    max-width: 60%;
-   padding: 10px;
+   margin: 15px auto;
+   padding: 8px;
 }
 
-main {
-   align-content: center;
+
+
+nav{
+   text-align: center;
 }
