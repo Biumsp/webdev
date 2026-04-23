@@ -18,6 +18,7 @@ header p {
 
 nav {
    border-bottom: 1px solid #dbe4f4;
+   text-align: center;
 }
 
 header,
@@ -29,19 +30,64 @@ a {
    text-decoration: none;
 }
 
-
-
 .card {
    border: 1px solid black;
-   margin: 10px 25px;
    border-radius: 10px;
    max-width: 60%;
    margin: 15px auto;
    padding: 8px;
 }
 
+/* --- UPGRADED MEDIA STYLES: Images & "Cool" Videos --- */
 
+/* Updated Image Styling */
+img {
+   width: 100%; /* Forces all images to be the same width as the container */
+   height: auto;
+   border-radius: 8px; 
+   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+   display: block;
+   margin: 15px 0; /* Changed from 'auto' to '0' to ensure it aligns with left-sided text */
+   transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
 
-nav{
-   text-align: center;
+/* Image Hover Effect */
+img:hover {
+   transform: scale(1.03); /* Zooms in slightly when hovered */
+   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2); /* Deepens shadow on hover */
+}
+
+/* Cool Video & iframe (YouTube) Styling */
+video, iframe {
+   width: 100%;
+   max-width: 600px; /* Prevents them from getting ridiculously huge on big screens */
+   aspect-ratio: 16 / 9; /* Forces a perfect widescreen ratio */
+   border-radius: 12px; /* Smoother, rounder corners */
+   border: 3px solid rgb(246, 74, 234); /* Pink border to match your header */
+   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Heavier drop shadow */
+   display: block;
+   margin: 25px auto;
+   transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Video Hover Effect */
+video:hover, iframe:hover {
+   transform: translateY(-5px); /* Makes the video "float" up when hovered */
+   box-shadow: 0 12px 20px rgba(246, 74, 234, 0.4); /* Pink glowing shadow on hover */
+}
+
+/* Footer Styles */
+footer {
+   background-color: #0f2547; /* The dark navy blue background */
+   color: #ffffff;            /* White text for contrast */
+   text-align: center;        /* Centers the text horizontally */
+   padding: 20px 0;           /* Adds space above and below the text */
+   width: 100%;               /* Ensures it stretches across the whole area */
+   margin-top: 30px;          /* Adds some breathing room above the footer */
+}
+
+/* Remove default paragraph margins inside the footer */
+footer p {
+   margin: 0;
+   font-size: 0.9rem;         /* Makes the text slightly smaller */
 }
