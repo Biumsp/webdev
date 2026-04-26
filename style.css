@@ -167,8 +167,8 @@ h2 {
 
 #Student p{
    border-left: 3.5px solid rgb(59, 59, 203);
-   padding: 5px;
-   padding-left: 15px;
+   padding: 15px 25px;
+
    background-color: #e9f1ff;
 }
 
