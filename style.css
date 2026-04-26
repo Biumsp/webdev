@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@200..700&display=swap');
 body {
    margin: 0;
    background-color: rgb(229, 243, 255);
    color: black;
-   font-family: 'fira-sans-thin', Tahoma, Geneva, Verdana, sans-serif;
+   font-family: 'Stack Sans Text', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -12,6 +12,7 @@ header {
    background: linear-gradient(to right, rgb(99, 193, 255), rgb(0, 117, 196));
    text-align: center;
    padding: 25px;
+   font-family: "fira-sans-thin", sans-serif;
 }
 
 
@@ -69,12 +70,16 @@ h2 {
    
 }
 
-#About p,
-#Photos p,
+
 #Student p {
    margin-left: 5px;
 }
  
+#About p{
+   margin: 5px;
+   margin-top: 15px;
+}
+
 #Highlights{
    display: grid;
    grid-template-columns: 1fr 1fr;
@@ -100,6 +105,7 @@ h2 {
    display: grid;
    grid-template-columns: 1fr 1fr;
    gap: 15px;
+   
 }
 
 #Photos h2{
@@ -111,6 +117,11 @@ h2 {
    border-radius: 10px;
    box-sizing: border-box;
    aspect-ratio: 16 / 9;
+}
+
+#Photos p {
+   margin: 5px;
+   font-size: 14px;
 }
 
 #Videos {
@@ -134,16 +145,32 @@ h2 {
    border-radius: 10px;
 }
 
-#Diary h3,
-#Diary p{
+#Diary h3{
    margin: 8px 5px;
 }
 
-#Diary article{
-   margin-top: 30px;
+#Diary p{
+   margin: 5px;
 }
 
+#Diary article{
+   margin-top: 20px;
+   padding-bottom: 20px;
+   border-bottom: 1px solid rgb(163, 144, 255);
+}
 
+#Diary article:last-child{
+   border-bottom: 0;
+   margin-bottom: 5px;
+   padding-bottom: 0;
+}
+
+#Student p{
+   border-left: 3.5px solid rgb(59, 59, 203);
+   padding: 5px;
+   padding-left: 15px;
+   background-color: #e9f1ff;
+}
 
 footer {
    background: linear-gradient(to right, rgb(11, 150, 243), rgb(0, 78, 129));
